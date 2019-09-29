@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet');
+
+html, body {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    /* background: #272C33; */
+    background: #2E323B;
+    font-size: 15px;
+    color: #EEEEEE;
+}
+a {
+    color: #C7CBCE;
+}
+a:visited {
+    color: #838F90;
+}
+a:link:hover, a:visited:hover {
+    color: #326CAB;
+    text-decoration: underline;
+}
+#menu {
+    background: #2A2E37;
+    padding: 0;
+}
+#menu h1 a {
+    background: #EEEEEE;
+}
+#menu a {
+    background: #2A2E37;
+}
+#breadcrumb {
+    color: #2A2E37;
+}
+label, p, fieldset > legend {
+    color: #EEEEEE;
+}
+h2, pre {
+    background: #EEEEEE;
+}
+h3 {
+    color: #FFF;
+}
+table {
+    color: #2A2E37;
+}
+table tr th, table thead tr td, table thead tr th {
+    background: #2C3039;
+    color: #EEEEEE;
+}
+table tr td, table tbody tr th, table tbody tr td, table tbody tr td label {
+    background: #EEEEEE;
+    color: #2A2E37;
+}
+table tr td a, table tr th a, #breadcrumb a, #breadcrumb a:visited {
+    color: #326CAB;
+}
+table tr td a:visited, table tr th a:visited {
+    color: #60344D;
+}
+table tr th {
+    color: #2A2E37;
+}
+.js .column {
+    background: #2C3039;
+}
+.js .checkable .checked td, .js .checkable .checked th, .js .checkable .checked th .column {
+    background: #E0C188;
+}
+.js .checkable .checked th a {
+    color: #2A2E37;
+}
+.footer {
+    background: #2C3039;
+    border-image: none;
+    border-top: 0;
+    margin-top: 20px;
+    color: #EEEEEE;
+}
+.footer > div {
+    background: #2C3039;
+}
+.footer fieldset > legend,
+.footer fieldset > legend a,
+.footer p,
+.footer label {
+    color: #EEEEEE;
+}
